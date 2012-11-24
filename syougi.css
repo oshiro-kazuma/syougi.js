@@ -1,0 +1,107 @@
+@CHARSET "windows-31j";
+
+.hoge { color: gray; }
+
+/* 将棋盤のスタイルシート */
+#ban {
+	padding:0;
+	margin:0;
+	width: 520px;
+	height: 610px;
+	float: left;
+}
+
+/* マスのスタイルシート */
+#ban > div {
+	padding: 4px;
+	float: left;
+	background: orange;
+	/* マスのサイズ */
+	width: 47px; height: 54px;
+	/* ボーダーの分だけマイナスマージンを入れる */
+	margin: -1px 0 0 -1px;
+	border: solid #222222 1px;
+}
+
+/* 持ち駒盤のスタイルシート */
+.motiKoma {
+	padding:0;
+	margin:0;
+	width: 220px;
+	height: 310px;
+	float: left;
+}
+
+/* 持ち駒盤のマスのスタイルシート */
+.motiKoma > div {
+	padding: 4px;
+	/* float: left; */
+	background: orange;
+	/* マスのサイズ */
+	width: 42px; height: 49px;
+	/* ボーダーの分だけマイナスマージンを入れる */
+	margin: -1px 0 0 -1px;
+	border: solid #222222 1px;
+}
+
+.takuan {
+	font-family: cursive, sans-serif;
+	position:fixed;
+	top:0px;
+	left:5px;
+	font-size:1.4em;
+	color: #dddddd;
+}
+
+h1{
+
+	padding-bottom:3px;
+	margin-bottom:3px;
+	margin-left:0em;
+	margin-top:0.2em;
+	border-bottom: solid #222222 1px;
+
+	font-family: tandelle-1, tandelle-2, Impact, Sans-serif, sans;
+	font-size:3em;
+	text-shadow: #00B4CC 0px 0px 3px;
+	color:#444444;
+
+	     -moz-transition: all 0.2s ease; /* FF3.7+ */
+	       -o-transition: all 0.2s ease; /* Opera 10.5 */
+	  -webkit-transition: all 0.7s ease; /* Saf3.2+, Chrome */
+	          transition: all 0.2s ease;
+}
+h1:hover {
+	text-shadow: #00B4CC 0px 0px 15px;
+}
+
+#state {
+	margin-bottom: 1em;
+}
+
+
+/* デバッグ用 */
+#debug_senyou {
+	margin-top:2em;
+	margin-bottom:2em;
+	border-top: solid #222222 1px;
+	clear:both;
+}
+
+#debug {
+	width:700px;
+}
+
+#debug2 {
+	width:200px;
+	height:300px;
+	font-size:0.8em;
+
+	margin:2em;
+
+	border-bottom: 0px solid #4C678F;
+	-webkit-box-shadow: 0 0px 23px #C1D6EC;
+	-moz-box-shadow: 0 0px 23px #C1D6EC;
+	box-shadow: 0 0px 23px #C1D6EC;
+
+}
