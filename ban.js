@@ -207,6 +207,7 @@ ban.moveKoma = function(i, j) {
 };
 
 //成金処理
+// TODO: と金に成のは強制じゃないらしい。ユーザーに選ばせる必要あり。
 ban.narikin = function(data) {
 
 	if(data.player == "North"){
