@@ -123,6 +123,7 @@ ban.onClickMasu = function(i,j) {
     }
 
     if(isMovable == true) {
+      $('#sound-file').get(0).play();
 
       //もち駒の場合
       if(ban.selectedKoma.j == "South" || ban.selectedKoma.j == "North") {
@@ -141,10 +142,8 @@ ban.onClickMasu = function(i,j) {
         $("#masu" + i + j).html("<img width='47px' height='54px' src='" + komaImgSrc + "' />");
 
 
-
       //通常時
       } else {
-
         //勝利判定
         if((ban.masu[i][j].koma == "王") && (ban.masu[i][j].direction != ban.player)) {
           ban.checkmate("win");
