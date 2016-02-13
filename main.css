@@ -1,110 +1,109 @@
-@CHARSET "windows-31j";
+@CHARSET "utf8";
 
 /*
  * タグ関係のスタイル
  */
 
 body {
-margin:0px;
-margin-top:60px;
-color:#343838;
+  margin:0px;
+  margin-top:60px;
+  color:#343838;
 }
 
 a {
-color:#008C9E;
+  color:#008C9E;
 }
 
 a:hover {
-color:#00B4CC;
+  color:#00B4CC;
 }
 p {
-line-height:1.6em;
+  line-height:1.6em;
 }
 li {
-margin:1em;
+  margin:1em;
 }
 
 /*
  * フッター、ヘッダーなどレイアウト関係のスタイル
  */
 #userInfo {
-font-size:0.8em;
-background-color:#343838;
-color:#eeeeee;
-border-bottom:solid 3px #00B4CC;
-top:0px;
-right:0px;
-width:100%;
-position:fixed;
-text-align:right;
-padding-top:10px;
-padding-bottom:10px;
-padding-left:10px;
+  font-size:0.8em;
+  background-color:#343838;
+  color: #eeeeee;
+  border-bottom:solid 3px #00B4CC;
+  top:0px;
+  right:0px;
+  width:100%;
+  position:fixed;
+  text-align:right;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
 }
 #footer{
-
-font-size:0.8em;
-background-color:#343838;
-color:#eeeeee;
-/*
- border-bottom:solid 1px #00B4CC;
- border-top:solid 1px #00B4CC;
-*/
-width:100%;
-text-align:right;
-padding-top:15px;
-padding-bottom:15px;
-padding-left:0px;
-clear:both;
+  font-size:0.8em;
+  background-color:#343838;
+  color:#eeeeee;
+  /*
+  border-bottom:solid 1px #00B4CC;
+  border-top:solid 1px #00B4CC;
+  */
+  width:100%;
+  text-align:right;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:0px;
+  clear:both;
 }
 
 #main {
-width:960px;
-margin-top:2em;
-margin-bottom:2em;
-margin-left: auto;
-margin-right: auto;
+  width:960px;
+  margin-top:2em;
+  margin-bottom:2em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #menu {
-	background: #2D2D2D url(./gazou/menuBar.png) repeat-x;
-	height: 30px;
-	padding: 15px 0 0 20px;
-	font-weight: bold;
-	font-size: 16px;
-	color: white;
-	text-shadow: 0 1px 1px #333333;
+  background: #2D2D2D url(./gazou/menuBar.png) repeat-x;
+  height: 30px;
+  padding: 15px 0 0 20px;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  text-shadow: 0 1px 1px #333333;
 }
 
 /*
  * テーブル関係のスタイル
  */
 table {
-    width: 530px;
-    border: 1px #343838 solid;
-    border-collapse: collapse;
-    border-spacing: 0;
+  width: 530px;
+  border: 1px #343838 solid;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 table th {
-    padding: 8px;
-    border: #343838 solid;
-    border-width: 0 0 1px 1px;
-    background: #EEEEEE;
-    font-weight: bold;
-    line-height: 120%;
-    text-align: center;
-    font-size:1.1em;
-	color:#008C9E
+  padding: 8px;
+  border: #343838 solid;
+  border-width: 0 0 1px 1px;
+  background: #EEEEEE;
+  font-weight: bold;
+  line-height: 120%;
+  text-align: center;
+  font-size:1.1em;
+  color:#008C9E
 }
 table td {
-    padding: 10px;
-    border: 1px #343838 solid;
-    border-width: 0 0 1px 1px;
-    /* text-align: center; */
+  padding: 10px;
+  border: 1px #343838 solid;
+  border-width: 0 0 1px 1px;
+  /* text-align: center; */
 }
 
 /* その他クラス */
 .fontSmall {
-	font-size:0.9em;
+  font-size:0.9em;
 }

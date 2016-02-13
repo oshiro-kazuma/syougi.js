@@ -30,8 +30,8 @@
 <script type="text/javascript"  src="./js/prettyprint.js"></script>
 
 <!-- スタイルシート読み込み -->
-<link rel="stylesheet" type="text/css" href="./main.css" ></link>
-<link rel="stylesheet" type="text/css" href="./syougi.css" ></link>
+<link rel="stylesheet" type="text/css" href="./main.css" />
+<link rel="stylesheet" type="text/css" href="./syougi.css" />
 
 <!-- 将棋JavaScript -->
 <script src="./ban.js" type="text/javascript" ></script>
@@ -45,9 +45,9 @@
 
 //ページを離れるイベントが発生したとき
 window.onbeforeunload = function() {
-	if(ban.isNoCheckUnload !== true) {
-		return "ページを離れると、このゲームは無効になりますがよろしいですか";
-	}
+  if(ban.isNoCheckUnload !== true) {
+    return "ページを離れると、このゲームは無効になりますがよろしいですか";
+  }
 };
 
 ban.player = "North";
@@ -55,16 +55,16 @@ ban.partnerPlayer = "South";
 
 //将棋スタート関数
 function start() {
-	ban.init_ban();
-	ban.init_koma();
-	ban.draw();
+  ban.init_ban();
+  ban.init_koma();
+  ban.draw();
 }
 
 
 //ページロード後の処理
 $(document).ready(function(){
 
-	start();
+  start();
 
 });
 
@@ -79,7 +79,6 @@ $(document).ready(function(){
 <div class="takuan"> 将棋</div>
 
 <div id=main>
-
 	<h1>将棋</h1>
 	<p><span id="playerInfo">北の番です．</span>駒を動かして下さい．</p>
 	<div class="motiKoma" id="motiKomaSouth"></div>
