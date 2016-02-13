@@ -66,10 +66,10 @@ h1{
   text-shadow: #00B4CC 0px 0px 3px;
   color:#444444;
 
-       -moz-transition: all 0.2s ease; /* FF3.7+ */
-         -o-transition: all 0.2s ease; /* Opera 10.5 */
-    -webkit-transition: all 0.7s ease; /* Saf3.2+, Chrome */
-            transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease; /* FF3.7+ */
+  -o-transition: all 0.2s ease; /* Opera 10.5 */
+  -webkit-transition: all 0.7s ease; /* Saf3.2+, Chrome */
+  transition: all 0.2s ease;
 }
 h1:hover {
   text-shadow: #00B4CC 0px 0px 15px;
