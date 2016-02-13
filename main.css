@@ -6,16 +6,18 @@
 
 body {
   margin:0px;
-  margin-top:60px;
-  color:#343838;
+  margin-top:50px;
+  color:#535233;
+  background-image: url("images/tatami.gif")
 }
 
 a {
-  color:#008C9E;
+  color:#EA9190;
+  text-decoration: none;
 }
 
 a:hover {
-  color:#00B4CC;
+  color:#CE7E7E;
 }
 p {
   line-height:1.6em;
@@ -29,9 +31,8 @@ li {
  */
 #userInfo {
   font-size:0.8em;
-  background-color:#343838;
+  background-color:rgba(56, 56, 56, 0.8);
   color: #eeeeee;
-  border-bottom:solid 3px #00B4CC;
   top:0px;
   right:0px;
   width:100%;
@@ -43,18 +44,13 @@ li {
 }
 #footer{
   font-size:0.8em;
-  background-color:#343838;
+  background-color:rgba(56, 56, 56, 0.8);
   color:#eeeeee;
-  /*
-  border-bottom:solid 1px #00B4CC;
-  border-top:solid 1px #00B4CC;
-  */
   width:100%;
   text-align:right;
-  padding-top:15px;
-  padding-bottom:15px;
-  padding-left:0px;
-  clear:both;
+  height:40px;
+  position:fixed;
+  bottom:0;
 }
 
 #main {

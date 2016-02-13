@@ -20,7 +20,7 @@
   width: 47px; height: 54px;
   /* ボーダーの分だけマイナスマージンを入れる */
   margin: -1px 0 0 -1px;
-  border: solid #222222 1px;
+  border: solid #333333 1px;
 }
 
 /* 持ち駒盤のスタイルシート */
@@ -41,7 +41,7 @@
   width: 42px; height: 49px;
   /* ボーダーの分だけマイナスマージンを入れる */
   margin: -1px 0 0 -1px;
-  border: solid #222222 1px;
+  border: solid #333333 1px;
 }
 
 .takuan {
