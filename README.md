@@ -4,3 +4,6 @@ JavaScript, jQueryを使った将棋のコード。
 
 ### Demo
 http://www.takuan.me/syougi/
+
+### screen shot
+![screen shot](screen_shot.png)
