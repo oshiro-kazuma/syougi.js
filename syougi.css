@@ -2,7 +2,7 @@
 
 .hoge { color: gray; }
 
-/* «Šû”Õ‚ÌƒXƒ^ƒCƒ‹ƒV[ƒg */
+/* å°†æ£‹ç›¤ã®ã‚¹ã‚¿ã‚¤ãƒ«ã‚·ãƒ¼ãƒˆ */
 #ban {
 	padding:0;
 	margin:0;
@@ -11,19 +11,19 @@
 	float: left;
 }
 
-/* ƒ}ƒX‚ÌƒXƒ^ƒCƒ‹ƒV[ƒg */
+/* ãƒã‚¹ã®ã‚¹ã‚¿ã‚¤ãƒ«ã‚·ãƒ¼ãƒˆ */
 #ban > div {
 	padding: 4px;
 	float: left;
 	background: orange;
-	/* ƒ}ƒX‚ÌƒTƒCƒY */
+	/* ãƒã‚¹ã®ã‚µã‚¤ã‚º */
 	width: 47px; height: 54px;
-	/* ƒ{[ƒ_[‚Ì•ª‚¾‚¯ƒ}ƒCƒiƒXƒ}[ƒWƒ“‚ğ“ü‚ê‚é */
+	/* ãƒœãƒ¼ãƒ€ãƒ¼ã®åˆ†ã ã‘ãƒã‚¤ãƒŠã‚¹ãƒãƒ¼ã‚¸ãƒ³ã‚’å…¥ã‚Œã‚‹ */
 	margin: -1px 0 0 -1px;
 	border: solid #222222 1px;
 }
 
-/* ‚¿‹î”Õ‚ÌƒXƒ^ƒCƒ‹ƒV[ƒg */
+/* æŒã¡é§’ç›¤ã®ã‚¹ã‚¿ã‚¤ãƒ«ã‚·ãƒ¼ãƒˆ */
 .motiKoma {
 	padding:0;
 	margin:0;
@@ -32,14 +32,14 @@
 	float: left;
 }
 
-/* ‚¿‹î”Õ‚Ìƒ}ƒX‚ÌƒXƒ^ƒCƒ‹ƒV[ƒg */
+/* æŒã¡é§’ç›¤ã®ãƒã‚¹ã®ã‚¹ã‚¿ã‚¤ãƒ«ã‚·ãƒ¼ãƒˆ */
 .motiKoma > div {
 	padding: 4px;
 	/* float: left; */
 	background: orange;
-	/* ƒ}ƒX‚ÌƒTƒCƒY */
+	/* ãƒã‚¹ã®ã‚µã‚¤ã‚º */
 	width: 42px; height: 49px;
-	/* ƒ{[ƒ_[‚Ì•ª‚¾‚¯ƒ}ƒCƒiƒXƒ}[ƒWƒ“‚ğ“ü‚ê‚é */
+	/* ãƒœãƒ¼ãƒ€ãƒ¼ã®åˆ†ã ã‘ãƒã‚¤ãƒŠã‚¹ãƒãƒ¼ã‚¸ãƒ³ã‚’å…¥ã‚Œã‚‹ */
 	margin: -1px 0 0 -1px;
 	border: solid #222222 1px;
 }
@@ -80,7 +80,7 @@ h1:hover {
 }
 
 
-/* ƒfƒoƒbƒO—p */
+/* ãƒ‡ãƒãƒƒã‚°ç”¨ */
 #debug_senyou {
 	margin-top:2em;
 	margin-bottom:2em;
