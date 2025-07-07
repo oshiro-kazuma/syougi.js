@@ -123,6 +123,18 @@ ban.onClickMasu = function(i,j) {
       //もち駒の場合
       if(ban.selectedKoma.j == "South" || ban.selectedKoma.j == "North") {
 
+        //二歩チェック
+        var koma = ban.motiKoma[ban.selectedKoma.j][ban.selectedKoma.i];
+        if(koma == "歩") {
+          for(var y_count = 0; y_count < 9; y_count++) {
+            if((ban.masu[i][y_count].koma == "歩") && (ban.masu[i][y_count].direction == ban.player)) {
+              alert("2歩で負けです");
+              ban.checkmate("lose");
+              return;
+            }
+          }
+        }
+
         //マスの情報を変更する
         ban.masu[i][j] = {
             "koma"    :ban.motiKoma[ban.selectedKoma.j][ban.selectedKoma.i],
