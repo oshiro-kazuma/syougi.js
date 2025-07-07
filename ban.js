@@ -145,7 +145,7 @@ ban.onClickMasu = function(i,j) {
         ban.drawMotiKoma(ban.player);
 
         //駒の画像を変更する
-        var komaImgSrc = "./koma/" + ban.getKomaImage(ban.masu[i][j]);
+        var komaImgSrc = "assets/koma/" + ban.getKomaImage(ban.masu[i][j]);
         $("#masu" + i + j).html("<img width='47px' height='54px' src='" + komaImgSrc + "' />");
 
 
@@ -206,7 +206,7 @@ ban.moveKoma = function(i, j) {
   });
 
   //マスの画像を変更する
-  var komaImgSrc = "./koma/" + ban.getKomaImage(ban.masu[i][j]);
+  var komaImgSrc = "assets/koma/" + ban.getKomaImage(ban.masu[i][j]);
   $("#masu" + ban.selectedKoma.i + ban.selectedKoma.j).html("");
   $("#masu" + i + j).html("<img width='47px' height='54px' src='" + komaImgSrc + "' />");
 
@@ -296,7 +296,7 @@ ban.draw = function () {
 
       // マスに駒がある場合
       if(ban.masu[i][j].koma != null) {
-        var komaImgSrc = "./koma/" + ban.getKomaImage(ban.masu[i][j]);
+        var komaImgSrc = "assets/koma/" + ban.getKomaImage(ban.masu[i][j]);
         $(masuId).html("<img class='koma_image' width='47px' height='54px' src='" + komaImgSrc + "' />");
 
       } else {
@@ -318,7 +318,7 @@ ban.drawMotiKoma = function(player) {
 
     //駒情報の格納
     var koma = ban.motiKoma[player][count];
-    var komaImgSrc = "./koma/" + ban.getKomaImage({"koma":koma, "direction":player});
+    var komaImgSrc = "assets/koma/" + ban.getKomaImage({"koma":koma, "direction":player});
     var motiKomaMasu = $("#motiKoma" + player + count);
 
     motiKomaMasu.html("<img width='42px' height='49px' src='" + komaImgSrc + "' />");
