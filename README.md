@@ -1,12 +1,10 @@
 ## syougi.js
 
-![screen shot](screen_shot.png)
+![screen shot](v1/screen_shot.png)
 
 JavaScript, jQueryを使った将棋のコード。
 
-### demo
-
-http://www.takuan.me/syougi/
+https://oshiro-kazuma.github.io/syougi.js/
 
 ### 使い方
 
