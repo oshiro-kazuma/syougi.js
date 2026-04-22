@@ -1,10 +1,10 @@
 ## syougi.js
 
-![screen shot](v1/screen_shot.png)
-
 JavaScript, jQueryを使った将棋のコード。
 
-https://oshiro-kazuma.github.io/syougi.js/
+**リリース: https://oshiro-kazuma.github.io/syougi.js/**
+
+<img src="v1/screen_shot.png" width="400" alt="screen shot">
 
 ### 使い方
 
